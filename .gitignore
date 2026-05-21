@@ -1,0 +1,6 @@
+.venv/
+.cache/
+.jupyter/
+.ipython/
+__pycache__/
+.DS_Store

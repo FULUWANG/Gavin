@@ -1,0 +1,8 @@
+# Optional model packages that may need system libraries on macOS.
+#
+# On Apple Silicon, xgboost needs OpenMP runtime:
+#   brew install libomp
+# Then:
+#   python -m pip install -r requirements-optional.txt
+xgboost>=2.0,<4.0
+
